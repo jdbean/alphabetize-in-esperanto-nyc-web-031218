@@ -1,3 +1,5 @@
+require 'pry'
+
 # #alphabetize
 #   alphabetizes based on the first letter
 #   alphabetizes based on second letters
@@ -10,6 +12,7 @@ def alphabetize(arr)
   arr.sort_by do |phrase|
     phrase.split("").map do |character|
       ESPERANTO_ALPHABET.index(character)
+      binding.pry
     end
   end
 end
