@@ -7,5 +7,5 @@
 
 def alphabetize(arr)
   ESPERANTO_ALPHABET_CONST = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
-  arr.sort_by { |phrase| ESPERANTO_ALPHABET_CONST.array[0]}
+  arr.sort_by { |phrase| ESPERANTO_ALPHABET_CONST.array[0] }
 end
