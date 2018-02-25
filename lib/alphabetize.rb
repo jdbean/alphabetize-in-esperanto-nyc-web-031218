@@ -4,8 +4,9 @@
 #   alphabetizes based on sixth letters
 #   alphabetizes based on second letters not in English alphabet
 
+ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
 def alphabetize(arr)
-  ESPERANTO_ALPHABET = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+
   arr.sort_by { |phrase| ESPERANTO_ALPHABET.phrase[0] }
 end
